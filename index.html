@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fun App</title>
+</head>
+<body>
+        <div class="adv_tips">
+            <h2><span>Success Checker</span> এ অংশগ্রহন করে নিজে সফল হওয়ার টিপস নিয়ে নিন ।</h2>
+        </div>
+<div class="quiz_form">
+    <form name="quiz" id="quiz">
+        <div class="successFullMan"><h2>Success Checker</h2></div>
+        <label for="name">১. আপনার নাম কী ?</label><br><br>
+        <input type="text" name="name" id="pername" placeholder="আপনার নাম লিখুন । "><br><br>
+        
+        <label for="prof">২. আপনার পেশা কী ?</label><br><br>
+        <label for="profession">ছাএ/ছাএী</label>
+        <input type="radio" class="radioEdit" name="profession" value="student" id="prof_stu"><br><br>
+        <label for="prof_Businesman">অন্যান্য</label>
+        <input type="radio" class="radioEdit" name="profession" value="Businesman" id="prof_tea"><br><br>
+
+        <label for="successB">৩. আপনি কী জীবনে সফল হতে চান ? </label><br><br>
+        <label for="successMan">হ্যাঁ</label>
+        <input type="radio" class="radioEdit" name="successMan" value="successY" id="suc_Yes"><br><br>
+        <label for="successMan">না</label>
+        <input type="radio" class="radioEdit" name="successMan" value="successN" id="suc_No"><br><br>
+
+        <label for="suc_hour">৪. আপনি সফল হওয়ার জন্য দৈনিক কত ঘন্টা পরিশ্রম করেন ? </label><br><br>
+        <label for="suce_hour"> ৩ ঘন্টা </label>
+        <input type="radio" class="radioEdit" name="suce_hour_man" value="3" id="suc_hour_three"><br><br>
+        
+        <label for="suces_hour"> ৫ ঘন্টা </label>
+        <input type="radio" class="radioEdit" name="suce_hour_man" value="5" id="suc_hour_five"><br><br>
+
+        <label for="more_hour">আরও বেশি</label>
+        <input type="radio" class="radioEdit" name="suce_hour_man" value="more_hours" id="suc_hour_more"><br><br>
+
+
+        <label for="aim">৫. আপনি কী আপনার জীবনের লক্ষ্য ঠিক করেছেন?  </label><br><br>
+        <label for="aim_yes">হ্যাঁ</label>
+        <input type="radio" class="radioEdit" name="aim_success" value="Yes" id="aim_yes"><br><br>
+        <label for="aim_no">না</label>
+        <input type="radio" class="radioEdit" name="aim_success" value="No" id="aim_no"><br><br>
+        <label for="aim_moreTime">আর অনেক সময় আছে।</label>
+        <input type="radio" class="radioEdit" name="aim_success" value="moreTime" id="aim_moreTime"><br><br>
+
+        <button type="button" id="submit">Submit</button>
+    </form>
+</div>
+    <div class="show">
+        <h2 id="show">Result</h2>
+    </div>
+    <div class="padding">
+        <p>Developer : PAPPU DEY</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
