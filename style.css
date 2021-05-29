@@ -63,19 +63,25 @@ form#quiz #pername {
 }
 .successFullMan h2 {
     padding: 10px;
+	font-size: 17px !important;
 }
 
 @media(min-width: 1200px) {
     .successFullMan {
       margin-left: 49px !important;
 	  width: 360px !important;
+	  
     }
+	.successFullMan h2 {
+		font-size: 25px !important;
+	}
 }
 @media(min-width: 772px) {
     .successFullMan {
         margin-left: 11px;
 		
     }
+	
 }
 
 .adv_tips {
