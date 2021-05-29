@@ -3,19 +3,16 @@ const professionCheck = document.quiz.profession;
 const successManCheck = document.quiz.successMan;
 const suce_hour_manCheck = document.quiz.suce_hour_man;
 const aim_success = document.quiz.aim_success;
-// const successManCheck = document.quiz.successMan;
-// const successManCheck = document.quiz.successMan;
-// const successManCheck = document.quiz.successMan;
-// const successManCheck = document.quiz.successMan;
+
 
 const submit = document.querySelector('#submit');
 
 submit.addEventListener("click", function () {
-    // alert( " প্রিয় "+ manName.value + " নিচে আপনার ফলাফল টি দেখুন । ধন্যবাদ । Developer : Pappu Dey ")
+    alert( " প্রিয় "+ manName.value + " নিচে আপনার ফলাফল টি দেখুন । ধন্যবাদ । Developer : Pappu Dey ")
     var  output
     if ((professionCheck.value == "student" || professionCheck.value == "Businesman") && (successManCheck.value == "successY") && (suce_hour_manCheck.value == "more_hours" || suce_hour_manCheck.value == "5") && (aim_success.value == "Yes")) {
         
-        output = "প্রিয় "+ manName.value +" আপনি জীবনে সাফল্য অর্জন করতে পারবেন । আপনি চেষ্টা চালিয়ে চান । আপনার বর্তমান চেষ্টা ১০০% ঠিক আছে । "
+        output = "প্রিয় "+ manName.value +" আপনি জীবনে সাফল্য অর্জন করতে পারবেন । আপনি চেষ্টা চালিয়ে যান । আপনার বর্তমান চেষ্টা ১০০% ঠিক আছে । "
     }else if ((professionCheck.value == "student" || professionCheck.value == "Businesman") && (successManCheck.value == "successY") && (suce_hour_manCheck.value == "3") && (aim_success.value == "Yes")){
         output = "প্রিয় "+ manName.value +" আপনি নিজের লক্ষ্যে পৌছানোর জন্য আপনার পড়া লেখা বা আপনার কাজে আর একটু সময় বাড়িয়ে দিন । আপনি জীবনে সাফল্য অর্জন করতে পারবেন । 🥰  "
     }
